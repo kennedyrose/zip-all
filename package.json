@@ -1,0 +1,14 @@
+{
+  "name": "zip-all",
+  "version": "1.0.0",
+  "description": "Zips all directories",
+  "main": "index.js",
+  "author": "Kennedy Rose <kennedy@kennedyrose.com>",
+  "license": "MIT",
+  "bin": {
+    "zip-all": "./bin.js"
+  },
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
+}
