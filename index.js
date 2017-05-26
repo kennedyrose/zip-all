@@ -41,7 +41,7 @@ function zipDirectory(dir){
 				break
 			}
 		}
-		exec(`-cd ${dir} && zip -r ../${name} .`, (err, stdout, stderr) => {
+		exec(`cd ${dir} && zip -r ../${name} .`, (err, stdout, stderr) => {
 			console.log(`Zipped ${name}`)
 			if(err) return reject(err)
 			if(stdout) console.log(stdout)
